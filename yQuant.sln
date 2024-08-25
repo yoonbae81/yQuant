@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{126F1F3F-BD6E-487B-8386-32EBD846E796}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6EC18768-2B59-4326-B93C-0145FD52FE34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yQuant.Domain", "yQuant.Domain\yQuant.Domain.csproj", "{D603CA41-3150-4EC3-A187-DAD32558AE6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yQuant.Application", "yQuant.Application\yQuant.Application.csproj", "{401F59BA-3ADB-4B20-B56A-BBA82C30A51E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yQuant.Infrastructure", "yQuant.Infrastructure\yQuant.Infrastructure.csproj", "{F2453218-CDD7-4F46-A72F-7B803D71A8C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yQuant.Presentation.Trade", "yQuant.Presentation.Trade\yQuant.Presentation.Trade.csproj", "{47AAFBB2-FD73-4079-BA89-C3708FE9BECD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yQuant.Presentation.Backtest", "yQuant.Presentation.Backtest\yQuant.Presentation.Backtest.csproj", "{C8D14E8F-16A7-45B4-A710-BD3CA3AD6DA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D603CA41-3150-4EC3-A187-DAD32558AE6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D603CA41-3150-4EC3-A187-DAD32558AE6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D603CA41-3150-4EC3-A187-DAD32558AE6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D603CA41-3150-4EC3-A187-DAD32558AE6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{401F59BA-3ADB-4B20-B56A-BBA82C30A51E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{401F59BA-3ADB-4B20-B56A-BBA82C30A51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{401F59BA-3ADB-4B20-B56A-BBA82C30A51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{401F59BA-3ADB-4B20-B56A-BBA82C30A51E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2453218-CDD7-4F46-A72F-7B803D71A8C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2453218-CDD7-4F46-A72F-7B803D71A8C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2453218-CDD7-4F46-A72F-7B803D71A8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2453218-CDD7-4F46-A72F-7B803D71A8C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47AAFBB2-FD73-4079-BA89-C3708FE9BECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47AAFBB2-FD73-4079-BA89-C3708FE9BECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47AAFBB2-FD73-4079-BA89-C3708FE9BECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47AAFBB2-FD73-4079-BA89-C3708FE9BECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D14E8F-16A7-45B4-A710-BD3CA3AD6DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D14E8F-16A7-45B4-A710-BD3CA3AD6DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D14E8F-16A7-45B4-A710-BD3CA3AD6DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D14E8F-16A7-45B4-A710-BD3CA3AD6DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D603CA41-3150-4EC3-A187-DAD32558AE6F} = {126F1F3F-BD6E-487B-8386-32EBD846E796}
+		{401F59BA-3ADB-4B20-B56A-BBA82C30A51E} = {126F1F3F-BD6E-487B-8386-32EBD846E796}
+		{F2453218-CDD7-4F46-A72F-7B803D71A8C1} = {126F1F3F-BD6E-487B-8386-32EBD846E796}
+		{47AAFBB2-FD73-4079-BA89-C3708FE9BECD} = {126F1F3F-BD6E-487B-8386-32EBD846E796}
+		{C8D14E8F-16A7-45B4-A710-BD3CA3AD6DA8} = {126F1F3F-BD6E-487B-8386-32EBD846E796}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E80195C6-AC80-4376-876A-376A297095E6}
+	EndGlobalSection
+EndGlobal
